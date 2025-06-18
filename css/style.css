@@ -125,7 +125,3 @@ body {
   display: flex;
   align-items: center;
 }
-
-body {
-  overflow: hidden;
-}
