@@ -74,7 +74,7 @@ body {
 }
 .header-inclinado-bg {
     background: #547f8c;
-    height: 100px;
+    height: 100%;
     width: 400px;
     position: absolute;
     top: 0;
