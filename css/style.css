@@ -106,3 +106,22 @@ body {
 .texto-naranja {
   color: #ff6600;
 }
+
+.barra-superior {
+  background: #002b5c;
+  height: 36px;
+  position: relative;
+  z-index: 10;
+}
+
+.telefono-diagonal {
+  background: #5caaf7;
+  color: #fff;
+  height: 100%;
+  padding: 0 24px 0 40px;
+  clip-path: polygon(18% 0, 100% 0, 100% 100%, 0% 100%);
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
