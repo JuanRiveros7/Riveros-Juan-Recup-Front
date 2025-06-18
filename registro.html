@@ -104,7 +104,11 @@
       <small class="text-muted">
         Tipos de archivos permitidos: JPG, JPEG, PNG. Tamaño máximo 50MB. Resolución recomendada 500px X 500px o superior manteniendo el aspecto cuadrado (1:1)
       </small>
-      <input type="file" class="form-control mt-2">
+      <div class="input-group">
+       <label class="input-group-text btn btn-outline-secondary mb-0" for="customFileInput">Seleccionar archivo</label>
+       <input type="file" class="d-none" id="customFileInput" onchange="document.getElementById('fileLabel').textContent = this.files[0]?.name || 'Ningún archivo seleccionado'">
+         <span class="form-control" id="fileLabel" style="background: #e9ecef; color: #6c757d;">Ningún archivo seleccionado</span>
+      </div>
     </div>
 
     <div class="text-center mb-3">
