@@ -30,24 +30,24 @@ body {
 }
 
 .btn-warning {
-  background-color: #fca311;
+  background-color: #7c9f54;
   border: none;
   color: white;
 }
 
 .btn-warning:hover {
-  background-color: #e59400;
+  background-color: #6a8a46;
 }
 
-.text-orange {
-  color: #ff6600 !important;
+.texto-color {
+  color: #7c9f54 !important;
 }
 
-.centrado-naranja {
+.centrado-color {
     display: block;
     width: 100%;
     text-align: center;
-    color: #ff6600;
+    color: #7c9f54;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -65,7 +65,7 @@ body {
 }
 .titulo-login span {
     font-size: 24px;
-    color: #555;
+    color: #547f8c;
 }
 
 .header-inclinado {
@@ -73,7 +73,7 @@ body {
     height: 100px;
 }
 .header-inclinado-bg {
-    background: #5caaf7;
+    background: #547f8c;
     height: 100px;
     width: 400px;
     position: absolute;
@@ -97,25 +97,25 @@ body {
 .header-inclinado-content span {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #111;
+    color: #2d484c;
 }
 
 .icono-naranja {
-  color: #ff6600;
+  color: #7c9f54;
 }
 .texto-naranja {
-  color: #ff6600;
+  color: #7c9f54;
 }
 
 .barra-superior {
-  background: #002b5c;
+  background: #2d484c;
   height: 36px;
   position: relative;
   z-index: 10;
 }
 
 .telefono-diagonal {
-  background: #5caaf7;
+  background: #547f8c;
   color: #fff;
   height: 100%;
   padding: 0 24px 0 40px;
