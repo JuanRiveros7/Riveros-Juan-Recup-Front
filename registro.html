@@ -34,7 +34,7 @@
   <form>
     <div class="mb-4">
       <div class="d-flex align-items-center mb-2">
-        <i class="bi bi-box2-fill"></i></i>
+        <i class="bi bi-box2-fill"></i>
         <h5 class="mb-0">Información Personal</h5>
       </div>
       <div class="row g-3">
@@ -43,35 +43,35 @@
             <i class="bi bi-person-vcard me-1 icono-naranja"></i>
             <span class="texto-color">No. Documento</span>
           </label>
-          <input type="number" class="form-control" required placeholder="Obligatorio">
+          <input type="number" name="documento" class="form-control" required placeholder="Obligatorio">
         </div>
         <div class="col-md-6">
           <label class="form-label fw-bold d-flex align-items-center">
             <i class="bi bi-person-fill me-1 icono-naranja"></i>
             <span class="texto-color">Nombres Completos</span>
           </label>
-          <input type="text" class="form-control" required placeholder="Obligatorio">
+          <input type="text" name="nombre" class="form-control" required placeholder="Obligatorio">
         </div>
         <div class="col-md-6">
           <label class="form-label fw-bold d-flex align-items-center">
             <i class="bi bi-telephone me-1 icono-naranja"></i>
             <span class="texto-color">No. Celular</span>
           </label>
-          <input type="tel" class="form-control" required placeholder="Obligatorio">
+          <input type="tel" name="no celular" class="form-control" required placeholder="Obligatorio">
         </div>
         <div class="col-md-6">
           <label class="form-label fw-bold d-flex align-items-center">
             <i class="bi bi-envelope me-1 icono-naranja"></i>
             <span class="texto-color">Email</span>
           </label>
-          <input type="email" class="form-control" required placeholder="Obligatorio">
+          <input type="email" name="email" class="form-control" required placeholder="Obligatorio">
         </div>
         <div class="col-md-6">
           <label class="form-label fw-bold d-flex align-items-center">
-            <i class="bi bi-person-fill me-1 icono-naranja"></i></i>
-            <span class="texto-color">Profecion</span>
+            <i class="bi bi-person-fill me-1 icono-naranja"></i>
+            <span class="texto-color">Profesion</span>
           </label>
-          <input type="text" class="form-control" required placeholder="Obligatorio">
+          <input type="text" name="profesion" class="form-control" required placeholder="Obligatorio">
         </div>
         <div class="col-md-6">
           <label class="form-label fw-bold d-flex align-items-center">
@@ -79,22 +79,22 @@
             <span class="texto-color">Contraseña<span class="texto-naranja">*</span></span>
             <span class="ms-1 texto-naranja">Min 8 Max 10 caracteres.</span>
           </label>
-          <input type="password" class="form-control" required placeholder="Obligatorio">
+          <input type="password" name="contrasena" class="form-control" required placeholder="Obligatorio">
         </div>
       </div>
     </div>
 
     <div class="mb-4">
       <div class="d-flex align-items-center mb-2">
-        <i class="bi bi-chat-dots-fill"></i></i>
+        <i class="bi bi-chat-dots-fill"></i>
         <h5 class="mb-0">Descripción del Perfil</h5>
       </div>
-      <textarea class="form-control" rows="4" placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
+      <textarea name="descripción" class="form-control" rows="4" placeholder="Describa su perfil profesional y laboral brevemente."></textarea>
     </div>
 
     <div class="mb-4">
       <div class="d-flex align-items-center mb-2">
-        <i class="bi bi-file-image"></i></i>
+        <i class="bi bi-file-image"></i>
         <h5 class="mb-0">Foto</h5>
       </div>
       <small class="text-muted">
@@ -102,7 +102,7 @@
       </small>
       <div class="input-group">
        <label class="input-group-text btn btn-outline-secondary mb-0" for="customFileInput">Seleccionar archivo</label>
-       <input type="file" class="d-none" id="customFileInput" onchange="document.getElementById('fileLabel').textContent = this.files[0]?.name || 'Ningún archivo seleccionado'">
+       <input type="file" name="foto" class="d-none" id="customFileInput" onchange="document.getElementById('fileLabel').textContent = this.files[0]?.name || 'Ningún archivo seleccionado'">
          <span class="form-control" id="fileLabel" style="background: #e9ecef; color: #6c757d;">Ningún archivo seleccionado</span>
       </div>
     </div>
@@ -116,6 +116,8 @@
         <i class="bi bi-save me-1"></i> Guardar
       </button>
     </div>
+  </form>
+</div>
 
 <footer class="text-white text-center py-2 w-100" style="background-color: #2d484c; margin:0; padding:0;">
   <small>
