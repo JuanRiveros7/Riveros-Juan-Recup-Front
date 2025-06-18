@@ -1,0 +1,103 @@
+:root {
+  --primario: #548c82;
+}
+
+.btn-primary {
+  background-color: var(--primario);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #436f69;
+}
+
+.btn-success {
+  background-color: var(--primario);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #436f69;
+}
+
+.navbar-light .nav-link:hover {
+  color: var(--primario);
+}
+
+.btn-warning {
+  background-color: #fca311;
+  border: none;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #e59400;
+}
+
+.text-orange {
+  color: #ff6600 !important;
+}
+
+.centrado-naranja {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ff6600;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.titulo-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.titulo-login i {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #555;
+}
+.titulo-login span {
+    font-size: 24px;
+    color: #555;
+}
+
+.header-inclinado {
+    position: relative;
+    height: 100px;
+}
+.header-inclinado-bg {
+    background: #5caaf7;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    z-index: 1;
+}
+.header-inclinado-content {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.header-inclinado-content img {
+    height: 50px;
+    margin-right: 10px;
+}
+.header-inclinado-content span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #111;
+}
+
+.icono-naranja {
+  color: #ff6600;
+}
+.texto-naranja {
+  color: #ff6600;
+}
